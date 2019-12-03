@@ -1,0 +1,37 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-07-26 22:18:19.517788: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-26 22:18:19.522925: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600080000 Hz
+2019-07-26 22:18:19.523535: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x513ecf0 executing computations on platform Host. Devices:
+2019-07-26 22:18:19.523565: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+Found 2000 images belonging to 2 classes.
+Found 800 images belonging to 2 classes.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Train on 2000 samples, validate on 800 samples
+Epoch 1/10
+2000/2000 [==============================] - 1s 276us/step - loss: 0.3505 - acc: 0.8445 - val_loss: 0.2093 - val_acc: 0.9175
+Epoch 2/10
+2000/2000 [==============================] - 0s 182us/step - loss: 0.2228 - acc: 0.9075 - val_loss: 0.1844 - val_acc: 0.9163
+Epoch 3/10
+2000/2000 [==============================] - 0s 184us/step - loss: 0.1960 - acc: 0.9190 - val_loss: 0.1598 - val_acc: 0.9337
+Epoch 4/10
+2000/2000 [==============================] - 0s 189us/step - loss: 0.1907 - acc: 0.9240 - val_loss: 0.1581 - val_acc: 0.9350
+Epoch 5/10
+2000/2000 [==============================] - 0s 189us/step - loss: 0.1783 - acc: 0.9275 - val_loss: 0.1950 - val_acc: 0.9187
+Epoch 6/10
+2000/2000 [==============================] - 0s 187us/step - loss: 0.1813 - acc: 0.9365 - val_loss: 0.1488 - val_acc: 0.9387
+Epoch 7/10
+2000/2000 [==============================] - 0s 182us/step - loss: 0.1668 - acc: 0.9355 - val_loss: 0.1620 - val_acc: 0.9275
+Epoch 8/10
+2000/2000 [==============================] - 0s 178us/step - loss: 0.1717 - acc: 0.9385 - val_loss: 0.1774 - val_acc: 0.9175
+Epoch 9/10
+2000/2000 [==============================] - 0s 183us/step - loss: 0.1657 - acc: 0.9315 - val_loss: 0.1464 - val_acc: 0.9375
+Epoch 10/10
+2000/2000 [==============================] - 0s 196us/step - loss: 0.1597 - acc: 0.9365 - val_loss: 0.1443 - val_acc: 0.9363

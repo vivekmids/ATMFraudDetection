@@ -1,0 +1,5 @@
+How do deal with multiple clients?
+
+Is the accuracy of the face discriminator as high as it claims to be?
+
+Change logic of face_detector so that it collects 50 faces (and doesn't just go through the loop 50 times).
